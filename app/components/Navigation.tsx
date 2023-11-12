@@ -8,10 +8,6 @@ import Link from "next/link";
 import Image from "next/image";
 import Share from "@/app/components/Share";
 
-function classNames(...classes) {
-    return classes.filter(Boolean).join(' ')
-}
-
 export default function Navigation() {
     // const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
