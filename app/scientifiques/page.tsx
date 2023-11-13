@@ -4,7 +4,7 @@ import scientists from "@/app/data/scientists.json";
 
 export default function Page() {
     return (
-            <main className={""}>
+            <main className={"px-6 lg:px-0"}>
                 <div className={"max-w-7xl mx-auto py-20 gap-8"}>
                     <div className={"text-center"}>
                         <h2 className={"text-primary mb-4 font-semibold uppercase"}>SOUTENEZ-LES</h2>
