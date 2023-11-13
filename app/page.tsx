@@ -16,7 +16,7 @@ export default function Home() {
           </div>
       </main>
         <section id={"le-constat"} className={"py-20 lg:py-36 px-6 lg:px-0 max-w-7xl mx-auto"}>
-            <div className={"text-center"}>
+            <div className={"text-center mb-14"}>
                 <h2 className={"text-primary mb-4 font-semibold uppercase"}>Le constat</h2>
                 <div className={"text-3xl lg:text-4xl text-primary font-bold mb-4 max-w-3xl mx-auto"}>Une escalade de la violence et de la désinformation autour du climat.</div>
                 <p className={"text-text-on-light max-w-3xl mx-auto"}>Depuis 2022, les scientifiques du climat reçoivent de plus en plus d’insultes et de menaces, parfois même des agressions physiques lorsqu’ils cherchent à partager leurs travaux de manière neutre sur les réseaux sociaux. Ce phénomène est notamment lié à d’autres évènements récents préoccupants.</p>
