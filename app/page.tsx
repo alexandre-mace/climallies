@@ -21,7 +21,7 @@ export default function Home() {
                 <div className={"text-3xl lg:text-4xl text-primary font-bold mb-4 max-w-3xl mx-auto"}>Une escalade de la violence et de la désinformation autour du climat.</div>
                 <p className={"text-text-on-light max-w-3xl mx-auto"}>Depuis 2022, les scientifiques du climat reçoivent de plus en plus d’insultes et de menaces, parfois même des agressions physiques lorsqu’ils cherchent à partager leurs travaux de manière neutre sur les réseaux sociaux. Ce phénomène est notamment lié à d’autres évènements récents préoccupants.</p>
             </div>
-            <div className={"grid grid-cols-1 lg:grid-cols-3 gap-16 py-16"}>
+            <div className={"grid grid-cols-1 lg:grid-cols-3 gap-8 pt-16 pb-8"}>
                 <div className={"bg-light-200 p-8 pt-12 rounded-lg text-center relative"}>
                     <Image width={64} height={64} src="/Warning.svg" alt="Attention" className={"absolute left-1/2 top-0 -translate-y-1/2 -translate-x-1/2"}/>
                     <div className={"font-semibold text-lg mb-3 text-primary"}>Des réseaux sociaux en roue libre</div>
@@ -42,7 +42,7 @@ export default function Home() {
                         La désinformation bénéficie aujourd'hui de “fermes à troll”, des faux comptes robots qui participent activement à désinformer sur les réseaux sociaux</p>
                 </div>
             </div>
-            <div className={"bg-light-200 flex flex-col lg:flex-row justify-between gap-3 lg:gap-6 rounded-lg mb-16"}>
+            <div className={"bg-light-200 flex flex-col lg:flex-row justify-between gap-3 lg:gap-6 rounded-lg mb-8"}>
                 <div className={"px-8 md:px-24 py-8 lg:py-16 max-w-2xl"}>
                     <div className={"font-semibold text-lg mb-3 text-primary"}>Des scientifiques excédés qui finissent par déserter car ils sont en danger</div>
                     <p className={"text-text-on-light"}>
